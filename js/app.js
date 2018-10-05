@@ -15,8 +15,8 @@ app.get("/delay", (req, res) => {
 });// esto tira el request y a los 10 segundos manda el response
 
 
-app.get('/quick', function(req,res){
-    res.send('pong');
+app.get('/', function(req,res){
+    res.send('respuesta veloz');
 });
 
 app.get('/slow', function(req,res){
