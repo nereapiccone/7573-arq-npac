@@ -11,7 +11,6 @@ services:
       build: ./js/
       ports:
        - "3000:3000"
-       
 
     nginx:
         image: nginx:1.15.3
